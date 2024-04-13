@@ -15,6 +15,16 @@ This repository provides the necessary code and instructions to interface a Wemo
 - ESP8266 board support for Arduino IDE
 - [TFT_eSPI library](https://github.com/Bodmer/TFT_eSPI.git?utm_source=platformio&utm_medium=piohome)
 
+
+## SPI Pinout
+
+- TFT_MOSI: GPIO 35 (aka SDA)
+- TFT_SCLK: GPIO 36 (aka SCL)
+- TFT_CS: GPIO 34 (Chip select control pin)
+- TFT_DC: GPIO 17 (Data Command control pin)
+- TFT_RST: GPIO 15 (Reset pin, could connect to Arduino RESET pin)
+- TFT_MISO: GPIO 1 ("For some reason DMA requires that a MISO pin is defined" - [Discussion](https://github.com/Bodmer/TFT_eSPI/discussions/2233)
+
 ## Installation
 
 1. Clone or download this repository.

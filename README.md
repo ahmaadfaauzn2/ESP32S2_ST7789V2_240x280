@@ -5,14 +5,14 @@ This repository provides the necessary code and instructions to interface a Wemo
 ## Hardware Requirements
 
 - Wemos S2 Mini ESP32-S2FN4R2 4MB FLASH WIFI Board ESP32-S2 MicroPython
-- 1.69-inch LCD Module (240 x 280) (https://www.waveshare.com/wiki/1.69inch_LCD_Module)
+- 1.69-inch LCD Module (240 x 280) ([Product Link](https://www.waveshare.com/wiki/1.69inch_LCD_Module))
 - Jumper wires
 - Breadboard (optional, depending on your setup)
 
 ## Software Requirements
 
-- Arduino IDE
-- ESP8266 board support for Arduino IDE
+- PlatformIO IDE
+- ESP8266 board support for PlatformIO
 - [TFT_eSPI library](https://github.com/Bodmer/TFT_eSPI.git?utm_source=platformio&utm_medium=piohome)
 
 
@@ -28,12 +28,10 @@ This repository provides the necessary code and instructions to interface a Wemo
 ## Installation
 
 1. Clone or download this repository.
-2. Open the Arduino IDE.
-3. Install ESP8266 board support if not already installed. (Go to `File > Preferences`, then add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` to the "Additional Board Manager URLs" field. Then, go to `Tools > Board > Boards Manager`, search for "esp8266", and install it.)
+2. Open the project folder in PlatformIO IDE.
+3. Ensure that ESP8266 board support is installed. (If not, you can install it via PlatformIO IDE.)
 4. Connect your Wemos S2 Mini to your computer via USB.
-5. Open the `wemosdisplay.ino` file in Arduino IDE.
-6. Select the appropriate board and port from the `Tools` menu.
-7. Click on the upload button to upload the code to your Wemos S2 Mini.
+5. Compile and upload the code to your Wemos S2 Mini.
 
 ## Usage
 
@@ -44,9 +42,8 @@ This repository provides the necessary code and instructions to interface a Wemo
 ## Troubleshooting
 
 - If you encounter any issues, double-check the wiring connections between the Wemos S2 Mini and the LCD Module.
-- Ensure that you have selected the correct board and port in the Arduino IDE.
-- Check the serial monitor in the Arduino IDE for any error messages.
-
+- Ensure that you have selected the correct board and port in the PlatformIO IDE.
+- Check the serial monitor in the PlatformIO IDE for any error messages.
 
 ## Issue 
 ## Pixel not fit and rendered to the screen

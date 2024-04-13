@@ -14,8 +14,7 @@
 
 #include <TFT_eSPI.h> // Graphics and font library for ILI9341 driver chip
 #include <SPI.h>
-// #include <User_Setup_Select.h> // Setup file selection
-#include <User_Setup.h> // Setup file selection
+#include <User_Setup.h> 
 
 #define TFT_GREY 0x5AEB // New colour
 
@@ -23,12 +22,7 @@ TFT_eSPI tft = TFT_eSPI();  // Invoke library
 
 
 void setup(void) {
-   Serial.begin(9600);
-
-   // Initialize the display
   tft.init();
-
-  // Set the rotation before we calibrate
   tft.setRotation(2);
 }
 
@@ -79,3 +73,4 @@ void loop() {
   tft.print("Hexadecimal = "); tft.println((int)fnumber, HEX); // Print as integer number in Hexadecimal
   delay(10000);
 }
+

@@ -37,6 +37,11 @@ This repository provides the necessary code and instructions to interface a Wemo
 - Ensure that you have selected the correct board and port in the Arduino IDE.
 - Check the serial monitor in the Arduino IDE for any error messages.
 
+
+## Issue 
+![Wemos S2 Mini with 1.69-inch LCD Module](blob:https://web.whatsapp.com/a01a35c4-1e88-4535-800f-d7678f21826d)
+
+
 ## Contributing
 
 Contributions are welcome! If you have any improvements or bug fixes, feel free to submit a pull request.

@@ -39,7 +39,7 @@ This repository provides the necessary code and instructions to interface a Wemo
 
 
 ## Issue 
-![Wemos S2 Mini with 1.69-inch LCD Module](blob:https://imgur.com/a/anpvAoW)
+![Wemos S2 Mini with 1.69-inch LCD Module]([blob:https://imgur.com/a/anpvAoW](https://i.imgur.com/jMSVz6o.jpg))
 
 
 ## Contributing

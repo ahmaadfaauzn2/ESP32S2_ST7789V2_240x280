@@ -40,6 +40,7 @@ This repository provides the necessary code and instructions to interface a Wemo
 
 ## Issue 
 ![Wemos S2 Mini with 1.69-inch LCD Module](https://i.imgur.com/ugETruBl.jpg)
+Pixel not fit and rendered to the screen
 
 
 ## Contributing

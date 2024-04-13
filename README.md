@@ -45,8 +45,7 @@ This repository provides the necessary code and instructions to interface a Wemo
 - Ensure that you have selected the correct board and port in the PlatformIO IDE.
 - Check the serial monitor in the PlatformIO IDE for any error messages.
 
-## Issue 
-## Pixel not fit and rendered to the screen
+## LCD Display 
 ![Wemos S2 Mini with 1.69-inch LCD Module](https://i.imgur.com/HU0WPhU.jpeg)
 
 

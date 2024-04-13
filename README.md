@@ -4,7 +4,7 @@ This repository provides the necessary code and instructions to interface a Wemo
 
 ## Hardware Requirements
 
-- Wemos S2 Mini
+- Wemos S2 Mini ESP32-S2FN4R2 4MB FLASH WIFI Board ESP32-S2 MicroPython
 - 1.69-inch LCD Module (240 x 280) (https://www.waveshare.com/wiki/1.69inch_LCD_Module)
 - Jumper wires
 - Breadboard (optional, depending on your setup)

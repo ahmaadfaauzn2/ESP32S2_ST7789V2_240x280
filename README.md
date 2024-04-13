@@ -1,5 +1,3 @@
-
-
 # Interfacing Wemos S2 Mini with 1.69-inch LCD Module (240 x 280)
 
 This repository provides the necessary code and instructions to interface a Wemos S2 Mini with a 1.69-inch LCD Module. The LCD Module has a resolution of 240 x 280 pixels.
@@ -7,7 +5,7 @@ This repository provides the necessary code and instructions to interface a Wemo
 ## Hardware Requirements
 
 - Wemos S2 Mini
-- 1.69-inch LCD Module (240 x 280)
+- 1.69-inch LCD Module (240 x 280) (https://www.waveshare.com/wiki/1.69inch_LCD_Module)
 - Jumper wires
 - Breadboard (optional, depending on your setup)
 
@@ -15,6 +13,7 @@ This repository provides the necessary code and instructions to interface a Wemo
 
 - Arduino IDE
 - ESP8266 board support for Arduino IDE
+- [TFT_eSPI library](https://github.com/Bodmer/TFT_eSPI.git?utm_source=platformio&utm_medium=piohome)
 
 ## Installation
 
@@ -45,6 +44,3 @@ Contributions are welcome! If you have any improvements or bug fixes, feel free 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
